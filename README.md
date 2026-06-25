@@ -76,6 +76,13 @@ needs `sudo`. The simplest no-sudo path is the official Arm GNU Toolchain tarbal
 from [developer.arm.com](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 (`darwin-arm64-arm-none-eabi`), extracted to a user directory and put on `PATH`.
 
+## Related
+
+[**ControllerKeys**](https://github.com/NSEvent/xbox-controller-mapper) — a macOS
+controller-to-keyboard/mouse/macro remapper. It pairs naturally with this build:
+run a DualSense through the dongle as wired USB and ControllerKeys maps its
+buttons, touchpad, and gyro like any wired DualSense.
+
 ## Credit & license
 
 Firmware and `config_tool.py` © awalol, **MIT-licensed** — see [`LICENSE`](LICENSE)
